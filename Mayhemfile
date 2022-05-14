@@ -1,0 +1,13 @@
+project: wgibbs15/claxon-fuzz
+
+# Target name (should be unique within the project)
+target: claxon-fuzz
+
+image: ghcr.io/wgibbs15/claxon-fuzz:latest
+
+# List of commands used to test the target
+cmds:
+
+    # Command used to start the target, "@@" is the input file
+    # (when "@@" is omitted Mayhem defaults to stdin inputs)
+    - cmd: /decode_full
