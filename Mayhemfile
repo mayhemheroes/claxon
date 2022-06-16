@@ -1,4 +1,4 @@
-project: wgibbs15/claxon-fuzz
+project: claxon-mayhem
 
 # Target name (should be unique within the project)
 target: claxon-fuzz
